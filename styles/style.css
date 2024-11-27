@@ -34,7 +34,7 @@ html {
     font-weight: 800;
     text-transform: uppercase;
     text-align: center;
-    letter-spacing: 4.06px;
+    letter-spacing: 4px;
     max-width: 740px;
     z-index: 1;
 }
@@ -48,6 +48,10 @@ html {
 }
 .page_title::after {
     content: '*';
+}
+.page_title:hover {
+    color: #4c4c4c;
+    cursor: default;
 }
 .page_title:hover::before {
     content: 'На самом деле нет.\AВажнее &mdash; научиться ошибаться.';
